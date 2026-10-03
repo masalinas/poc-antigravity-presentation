@@ -3,22 +3,21 @@ PoC use antigravity agent to create presentations using OpenSpec
 
 ## STEPS
 
-- **STEP01**
-Create your default working folder
+- **STEP01**: Create your default working folder\
 ```bash
 mkdir my-presentation
 cd my-presentation
 ```
 
-- **STEP02**
+- **STEP02**: Initialize OpenSpec\
 Initialize OpenSpec in your working folder. After this you will have your `.agent` folder with all openspec skills and the `openspec` folder used by OpenSpec to implement SDD
 
 ```bash
 openspec init
 ```
 
-- **STEP03**
-Install the pptx skill from Anthropic to create any type of presentations. We will use the tool called `openskills` with the argument universal because our agent is not the default agent used by this Anthropic tool. With this argument the skill will installed inside `.agent` folder and not `.claude`. The inside we can select the skill `pptx` to be installed.
+- **STEP03**: Install custom skills\
+Install the pptx skill from Anthropic to create any type of presentations. We will use the tool called `openskills` with the argument universal because our agent is not the default agent used by this Anthropic tool. With this argument the skill will installed inside `.agent` folder and not `.claude`. After execute the tool, we can select the skill `pptx` to be installed.
 
 ```bash
 npx openskills install anthropics/skills --universal
@@ -73,7 +72,7 @@ agy
 ────────────────────────────────────────────────────────────
 ```
 
-- **STEP05**
+- **STEP05**: Start presentation\
 Now you can start to implement your presentation. This is a sample not using open
 
 ```bash
