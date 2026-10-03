@@ -3,7 +3,7 @@ PoC use antigravity agent to create presentations using OpenSpec
 
 ## STEPS
 
-- **STEP01**: Create your default working folder\
+- **STEP01**: Create your default working folder
 ```bash
 mkdir my-presentation
 cd my-presentation
