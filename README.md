@@ -1,7 +1,7 @@
 # Descriprion
 PoC use antigravity agent to create presentations using OpenSpec
 
-## STEPS
+## STEPS
 
 - **STEP01**
 Create your default working folder
